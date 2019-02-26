@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571896BBED9E2D5B58138A5E /* libPods-YRCycleGIFImageView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B51523336E31DC224A85BAB3 /* libPods-YRCycleGIFImageView.a */; };
+		B9CF9916221E82F400F68F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9915221E82F400F68F04 /* AppDelegate.m */; };
+		B9CF9919221E82F400F68F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9918221E82F400F68F04 /* ViewController.m */; };
+		B9CF991C221E82F400F68F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CF991A221E82F400F68F04 /* Main.storyboard */; };
+		B9CF991E221E82F700F68F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CF991D221E82F700F68F04 /* Assets.xcassets */; };
+		B9CF9921221E82F700F68F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9CF991F221E82F700F68F04 /* LaunchScreen.storyboard */; };
+		B9CF9924221E82F700F68F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9923221E82F700F68F04 /* main.m */; };
+		B9CF992E221E82F700F68F04 /* YRCycleGIFImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF992D221E82F700F68F04 /* YRCycleGIFImageViewTests.m */; };
+		B9CF9939221E82F700F68F04 /* YRCycleGIFImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9938221E82F700F68F04 /* YRCycleGIFImageViewUITests.m */; };
+		B9CF9948221E8A6500F68F04 /* YRCycleGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9947221E8A6500F68F04 /* YRCycleGIFImageView.m */; };
+		B9CF994E221E952900F68F04 /* YRGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF994D221E952900F68F04 /* YRGIFImageView.m */; };
+		B9CF9951221E9A0500F68F04 /* NSString+Other.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9950221E9A0500F68F04 /* NSString+Other.m */; };
+		B9CF9954221E9B4500F68F04 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CF9953221E9B4500F68F04 /* UIView+Frame.m */; };
+		B9CF9957221E9D6E00F68F04 /* gif@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CF9955221E9D6E00F68F04 /* gif@3x.png */; };
+		B9CF9958221E9D6E00F68F04 /* gif@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9CF9956221E9D6E00F68F04 /* gif@2x.png */; };
+		B9E1D742221FC767002A13C6 /* YRPhotoProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1D740221FC767002A13C6 /* YRPhotoProgressView.m */; };
+		B9E1D743221FC767002A13C6 /* YRPhotoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E1D741221FC767002A13C6 /* YRPhotoLoadingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9CF992A221E82F700F68F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9CF9909221E82F400F68F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9CF9910221E82F400F68F04;
+			remoteInfo = YRCycleGIFImageView;
+		};
+		B9CF9935221E82F700F68F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9CF9909221E82F400F68F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9CF9910221E82F400F68F04;
+			remoteInfo = YRCycleGIFImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		803FF6B2909767F95DA02313 /* Pods-YRCycleGIFImageView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRCycleGIFImageView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YRCycleGIFImageView/Pods-YRCycleGIFImageView.release.xcconfig"; sourceTree = "<group>"; };
+		B51523336E31DC224A85BAB3 /* libPods-YRCycleGIFImageView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YRCycleGIFImageView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CF9911221E82F400F68F04 /* YRCycleGIFImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRCycleGIFImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CF9914221E82F400F68F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9CF9915221E82F400F68F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9CF9917221E82F400F68F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9CF9918221E82F400F68F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9CF991B221E82F400F68F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9CF991D221E82F700F68F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CF9920221E82F700F68F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9CF9922221E82F700F68F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CF9923221E82F700F68F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9CF9929221E82F700F68F04 /* YRCycleGIFImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRCycleGIFImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CF992D221E82F700F68F04 /* YRCycleGIFImageViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRCycleGIFImageViewTests.m; sourceTree = "<group>"; };
+		B9CF992F221E82F700F68F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CF9934221E82F700F68F04 /* YRCycleGIFImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YRCycleGIFImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CF9938221E82F700F68F04 /* YRCycleGIFImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRCycleGIFImageViewUITests.m; sourceTree = "<group>"; };
+		B9CF993A221E82F700F68F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9CF9946221E8A6400F68F04 /* YRCycleGIFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRCycleGIFImageView.h; sourceTree = "<group>"; };
+		B9CF9947221E8A6500F68F04 /* YRCycleGIFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRCycleGIFImageView.m; sourceTree = "<group>"; };
+		B9CF994C221E952900F68F04 /* YRGIFImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRGIFImageView.h; sourceTree = "<group>"; };
+		B9CF994D221E952900F68F04 /* YRGIFImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YRGIFImageView.m; sourceTree = "<group>"; };
+		B9CF994F221E9A0500F68F04 /* NSString+Other.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Other.h"; sourceTree = "<group>"; };
+		B9CF9950221E9A0500F68F04 /* NSString+Other.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Other.m"; sourceTree = "<group>"; };
+		B9CF9952221E9B4500F68F04 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B9CF9953221E9B4500F68F04 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		B9CF9955221E9D6E00F68F04 /* gif@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif@3x.png"; sourceTree = "<group>"; };
+		B9CF9956221E9D6E00F68F04 /* gif@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gif@2x.png"; sourceTree = "<group>"; };
+		B9E1D73E221FC767002A13C6 /* YRPhotoProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoProgressView.h; sourceTree = "<group>"; };
+		B9E1D73F221FC767002A13C6 /* YRPhotoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPhotoLoadingView.h; sourceTree = "<group>"; };
+		B9E1D740221FC767002A13C6 /* YRPhotoProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoProgressView.m; sourceTree = "<group>"; };
+		B9E1D741221FC767002A13C6 /* YRPhotoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPhotoLoadingView.m; sourceTree = "<group>"; };
+		D61FC868152A91717650F790 /* Pods-YRCycleGIFImageView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YRCycleGIFImageView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YRCycleGIFImageView/Pods-YRCycleGIFImageView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CF990E221E82F400F68F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571896BBED9E2D5B58138A5E /* libPods-YRCycleGIFImageView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9926221E82F700F68F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9931221E82F700F68F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33C5373B3E93C1F36E0C4FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B51523336E31DC224A85BAB3 /* libPods-YRCycleGIFImageView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		396A61FE507C27DDF17D6843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61FC868152A91717650F790 /* Pods-YRCycleGIFImageView.debug.xcconfig */,
+				803FF6B2909767F95DA02313 /* Pods-YRCycleGIFImageView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B95FEBFF2223E916005E71A0 /* YRCycleScrollGIFImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF9946221E8A6400F68F04 /* YRCycleGIFImageView.h */,
+				B9CF9947221E8A6500F68F04 /* YRCycleGIFImageView.m */,
+				B9CF994C221E952900F68F04 /* YRGIFImageView.h */,
+				B9CF994D221E952900F68F04 /* YRGIFImageView.m */,
+				B9E1D73F221FC767002A13C6 /* YRPhotoLoadingView.h */,
+				B9E1D741221FC767002A13C6 /* YRPhotoLoadingView.m */,
+				B9E1D73E221FC767002A13C6 /* YRPhotoProgressView.h */,
+				B9E1D740221FC767002A13C6 /* YRPhotoProgressView.m */,
+			);
+			path = YRCycleScrollGIFImageView;
+			sourceTree = "<group>";
+		};
+		B95FEC002223E939005E71A0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF994F221E9A0500F68F04 /* NSString+Other.h */,
+				B9CF9950221E9A0500F68F04 /* NSString+Other.m */,
+				B9CF9952221E9B4500F68F04 /* UIView+Frame.h */,
+				B9CF9953221E9B4500F68F04 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B9CF9908221E82F400F68F04 = {
+			isa = PBXGroup;
+			children = (
+				B9CF9913221E82F400F68F04 /* YRCycleGIFImageView */,
+				B9CF992C221E82F700F68F04 /* YRCycleGIFImageViewTests */,
+				B9CF9937221E82F700F68F04 /* YRCycleGIFImageViewUITests */,
+				B9CF9912221E82F400F68F04 /* Products */,
+				396A61FE507C27DDF17D6843 /* Pods */,
+				33C5373B3E93C1F36E0C4FA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9CF9912221E82F400F68F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF9911221E82F400F68F04 /* YRCycleGIFImageView.app */,
+				B9CF9929221E82F700F68F04 /* YRCycleGIFImageViewTests.xctest */,
+				B9CF9934221E82F700F68F04 /* YRCycleGIFImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CF9913221E82F400F68F04 /* YRCycleGIFImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF9914221E82F400F68F04 /* AppDelegate.h */,
+				B9CF9915221E82F400F68F04 /* AppDelegate.m */,
+				B9CF9917221E82F400F68F04 /* ViewController.h */,
+				B9CF9918221E82F400F68F04 /* ViewController.m */,
+				B95FEC002223E939005E71A0 /* Category */,
+				B95FEBFF2223E916005E71A0 /* YRCycleScrollGIFImageView */,
+				B9CF991A221E82F400F68F04 /* Main.storyboard */,
+				B9CF991D221E82F700F68F04 /* Assets.xcassets */,
+				B9CF9956221E9D6E00F68F04 /* gif@2x.png */,
+				B9CF9955221E9D6E00F68F04 /* gif@3x.png */,
+				B9CF991F221E82F700F68F04 /* LaunchScreen.storyboard */,
+				B9CF9922221E82F700F68F04 /* Info.plist */,
+				B9CF9923221E82F700F68F04 /* main.m */,
+			);
+			path = YRCycleGIFImageView;
+			sourceTree = "<group>";
+		};
+		B9CF992C221E82F700F68F04 /* YRCycleGIFImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF992D221E82F700F68F04 /* YRCycleGIFImageViewTests.m */,
+				B9CF992F221E82F700F68F04 /* Info.plist */,
+			);
+			path = YRCycleGIFImageViewTests;
+			sourceTree = "<group>";
+		};
+		B9CF9937221E82F700F68F04 /* YRCycleGIFImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9CF9938221E82F700F68F04 /* YRCycleGIFImageViewUITests.m */,
+				B9CF993A221E82F700F68F04 /* Info.plist */,
+			);
+			path = YRCycleGIFImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CF9910221E82F400F68F04 /* YRCycleGIFImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CF993D221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageView" */;
+			buildPhases = (
+				B775D6424F7F8D8F44056E2F /* [CP] Check Pods Manifest.lock */,
+				B9CF990D221E82F400F68F04 /* Sources */,
+				B9CF990E221E82F400F68F04 /* Frameworks */,
+				B9CF990F221E82F400F68F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRCycleGIFImageView;
+			productName = YRCycleGIFImageView;
+			productReference = B9CF9911221E82F400F68F04 /* YRCycleGIFImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9CF9928221E82F700F68F04 /* YRCycleGIFImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CF9940221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageViewTests" */;
+			buildPhases = (
+				B9CF9925221E82F700F68F04 /* Sources */,
+				B9CF9926221E82F700F68F04 /* Frameworks */,
+				B9CF9927221E82F700F68F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9CF992B221E82F700F68F04 /* PBXTargetDependency */,
+			);
+			name = YRCycleGIFImageViewTests;
+			productName = YRCycleGIFImageViewTests;
+			productReference = B9CF9929221E82F700F68F04 /* YRCycleGIFImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9CF9933221E82F700F68F04 /* YRCycleGIFImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CF9943221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageViewUITests" */;
+			buildPhases = (
+				B9CF9930221E82F700F68F04 /* Sources */,
+				B9CF9931221E82F700F68F04 /* Frameworks */,
+				B9CF9932221E82F700F68F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9CF9936221E82F700F68F04 /* PBXTargetDependency */,
+			);
+			name = YRCycleGIFImageViewUITests;
+			productName = YRCycleGIFImageViewUITests;
+			productReference = B9CF9934221E82F700F68F04 /* YRCycleGIFImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CF9909221E82F400F68F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.none.ios;
+				TargetAttributes = {
+					B9CF9910221E82F400F68F04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B9CF9928221E82F700F68F04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B9CF9910221E82F400F68F04;
+					};
+					B9CF9933221E82F700F68F04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B9CF9910221E82F400F68F04;
+					};
+				};
+			};
+			buildConfigurationList = B9CF990C221E82F400F68F04 /* Build configuration list for PBXProject "YRCycleGIFImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9CF9908221E82F400F68F04;
+			productRefGroup = B9CF9912221E82F400F68F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CF9910221E82F400F68F04 /* YRCycleGIFImageView */,
+				B9CF9928221E82F700F68F04 /* YRCycleGIFImageViewTests */,
+				B9CF9933221E82F700F68F04 /* YRCycleGIFImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CF990F221E82F400F68F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CF9958221E9D6E00F68F04 /* gif@2x.png in Resources */,
+				B9CF9921221E82F700F68F04 /* LaunchScreen.storyboard in Resources */,
+				B9CF991E221E82F700F68F04 /* Assets.xcassets in Resources */,
+				B9CF991C221E82F400F68F04 /* Main.storyboard in Resources */,
+				B9CF9957221E9D6E00F68F04 /* gif@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9927221E82F700F68F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9932221E82F700F68F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B775D6424F7F8D8F44056E2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YRCycleGIFImageView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CF990D221E82F400F68F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CF9919221E82F400F68F04 /* ViewController.m in Sources */,
+				B9E1D743221FC767002A13C6 /* YRPhotoLoadingView.m in Sources */,
+				B9CF9924221E82F700F68F04 /* main.m in Sources */,
+				B9E1D742221FC767002A13C6 /* YRPhotoProgressView.m in Sources */,
+				B9CF994E221E952900F68F04 /* YRGIFImageView.m in Sources */,
+				B9CF9954221E9B4500F68F04 /* UIView+Frame.m in Sources */,
+				B9CF9916221E82F400F68F04 /* AppDelegate.m in Sources */,
+				B9CF9951221E9A0500F68F04 /* NSString+Other.m in Sources */,
+				B9CF9948221E8A6500F68F04 /* YRCycleGIFImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9925221E82F700F68F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CF992E221E82F700F68F04 /* YRCycleGIFImageViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9CF9930221E82F700F68F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CF9939221E82F700F68F04 /* YRCycleGIFImageViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9CF992B221E82F700F68F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9CF9910221E82F400F68F04 /* YRCycleGIFImageView */;
+			targetProxy = B9CF992A221E82F700F68F04 /* PBXContainerItemProxy */;
+		};
+		B9CF9936221E82F700F68F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9CF9910221E82F400F68F04 /* YRCycleGIFImageView */;
+			targetProxy = B9CF9935221E82F700F68F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9CF991A221E82F400F68F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CF991B221E82F400F68F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9CF991F221E82F700F68F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CF9920221E82F700F68F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CF993B221E82F700F68F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9CF993C221E82F700F68F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9CF993E221E82F700F68F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61FC868152A91717650F790 /* Pods-YRCycleGIFImageView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVFS746DQN;
+				INFOPLIST_FILE = YRCycleGIFImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		B9CF993F221E82F700F68F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803FF6B2909767F95DA02313 /* Pods-YRCycleGIFImageView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GVFS746DQN;
+				INFOPLIST_FILE = YRCycleGIFImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		B9CF9941221E82F700F68F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRCycleGIFImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRCycleGIFImageView.app/YRCycleGIFImageView";
+			};
+			name = Debug;
+		};
+		B9CF9942221E82F700F68F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRCycleGIFImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YRCycleGIFImageView.app/YRCycleGIFImageView";
+			};
+			name = Release;
+		};
+		B9CF9944221E82F700F68F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRCycleGIFImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YRCycleGIFImageView;
+			};
+			name = Debug;
+		};
+		B9CF9945221E82F700F68F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YRCycleGIFImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.ios.YRCycleGIFImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YRCycleGIFImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CF990C221E82F400F68F04 /* Build configuration list for PBXProject "YRCycleGIFImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CF993B221E82F700F68F04 /* Debug */,
+				B9CF993C221E82F700F68F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CF993D221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CF993E221E82F700F68F04 /* Debug */,
+				B9CF993F221E82F700F68F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CF9940221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CF9941221E82F700F68F04 /* Debug */,
+				B9CF9942221E82F700F68F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CF9943221E82F700F68F04 /* Build configuration list for PBXNativeTarget "YRCycleGIFImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CF9944221E82F700F68F04 /* Debug */,
+				B9CF9945221E82F700F68F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CF9909221E82F400F68F04 /* Project object */;
+}
